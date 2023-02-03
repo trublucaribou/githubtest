@@ -1,0 +1,128 @@
+/* Universal Stuff */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Quicksand:wght@300;500;700&family=Shadows+Into+Light&display=swap');
+
+html {
+    background-color: aliceblue;
+}
+
+/* Headers and P */
+
+h1 {
+    font-family: "Shadows Into Light";
+    font-size: 32px;
+    margin: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Barlow";
+    font-size: 24px;
+}
+
+h3 {
+    font-family: "Barlow";
+}
+
+p {
+    font-family: "Quicksand";
+    font-size: 18px;
+}
+
+/* Specifics for highlighting fonts */
+
+#quicksandlight {
+    font-weight:lighter;
+}
+
+#quicksandbold {
+    font-weight:bolder;
+}
+
+#barlowlight {
+    font-weight: lighter;
+    font-family: "Barlow";
+}
+
+#barlownormal {
+    font-family: "Barlow";
+}
+
+#barlowbold {
+    font-weight: bolder;
+    font-family: "Barlow";
+}
+
+.shadows {
+    font-family: "Shadows Into Light";
+}
+
+#examplemain {
+    text-align: left;
+    margin: 0px;
+}
+
+/* Sections */
+
+.bigsection {
+    display:block;
+    border: 3px rgba(0,0,0,0.5) dotted;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+}
+/* Colors */
+
+.colorbox {
+    width:90px;
+    height:120px;
+    display: inline-block;
+    border: 1px black solid;
+    margin-right: 25px;
+    vertical-align: top;
+}
+
+
+#listylist {
+    margin-bottom: 6px;
+}
+
+#dodgerblue {
+    background-color: dodgerblue;
+}
+
+#azure {
+    background-color: azure;
+}
+
+#cadetblue {
+    background-color: cadetblue;
+}
+
+#lightslategray {
+    background-color: lightslategray;
+}
+
+#cornflowerblue {
+    background-color: cornflowerblue;
+}
+
+#palevioletred {
+    background-color: palevioletred;
+}
+
+#indianred {
+    background-color: indianred;
+}
+
+#darksalmon {
+    background-color: darksalmon;
+}
+
+#lightcoral {
+    background-color: lightcoral;
+}
+
+#firebrick {
+    background-color: firebrick;
+}
